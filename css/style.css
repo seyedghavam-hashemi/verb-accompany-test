@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*LOGO*/
+.div-titre {
+    height:10vh;
+    width:100%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+#logojpg{
+    height:10vh;
+}
+
+/*QUESTION SECTION*/
+.div-question{
+    height:7vh;
+    width:100%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+#question-sentence{
+    height:6vh;
+}
+
+/*ANSWER SECTION*/
+.sec-answer{
+    height:15vh;
+    width:100%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    margin-top: 5px;
+}
+
+#aTextBox{
+    font-family:  "Roboto", sans-serif;
+    font-style: normal;
+    font-size:2vw;
+
+}
+
+/*correct-false SECTION*/
+.correct-false{
+    height:10vh;
+    width:100%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    margin-top: 5px;
+}
+
+#false_answer{
+    display:none;
+    margin-top: 30px;
+}
+#correct_answer{
+    display:none;
+    margin-top: 20px;
+}
+
+
+
+/*section cheat*/
+.sec-cheat{
+    margin-top: 40vh;
+    height:30vh;
+    width:100%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+
+}
+
+.dropbtn {
+    
+    background-image: url("cheat-cover.jpg");
+    width: 300px;
+    height:300px;
+    
+    padding: 0px;
+    border: none;
+    cursor: pointer;
+  }
+  
+ /* .dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+  }
+  */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    overflow: auto;
+    z-index: 1;
+    left:8px;
+  }
+  
+
+  
+  
+  .show {display: block;}
