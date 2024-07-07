@@ -1,0 +1,96 @@
+@import url('https://v1.fontapi.ir/css/Vazir');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+/*EN FONT*/
+@font-face {
+  font-family: 'roboto-regular';
+  src: url(fonts/Roboto-Regular) format('tff');
+}
+
+@font-face {
+  font-family: 'Roboto-Medium';
+  src: url(fonts/Roboto-Medium) format('tff');
+}
+
+@font-face {
+  font-family: 'PrincessSofia-Regular';
+  src: url(fonts/PrincessSofia-Regular) format('tff');
+}
+
+@font-face {
+  font-family: 'OpenSans-VariableFont_wdth,wght';
+  src: url(fonts/OpenSans-VariableFont_wdth,wght) format('tff');
+}
+
+#question-sentence{
+  /*font-family: 'OpenSans-VariableFont_wdth,wght', 'PrincessSofia-Regular', 'Roboto-Medium', 'roboto-regular';*/
+  font-family:  "Roboto", sans-serif;
+  font-style: normal;
+  font-size:2vw;
+}
+
+
+
+
+/*PER FONT*/
+@font-face {
+    font-family: 'amiri';
+    src: url(fonts/amiri) format('tff');
+  }
+
+@font-face {
+    font-family: 'davat';
+    src: url(fonts/badr) format('tff');
+  }
+@font-face {
+    font-family: 'persian-badkh';
+    src: url(fonts/persian-badkh) format('tff');
+  }
+ 
+.per-text{
+    font-family: 'Vazir', 'amiri' ;  
+    font-weight: 100;
+    font-style: normal;  
+    font-size: 2vw;
+    color:#000;
+}
+
+
+
+.en-text{
+    font-family: 'Roboto-Medium' ;  
+    font-weight: 100;
+    font-style: normal;  
+    font-size: 3vw;
+    color:#000;
+}
+
+.answer-li{
+    font-family: 'Roboto-Medium' ;  
+    font-weight: 100;
+    font-style: normal;  
+    font-size: 2vw;
+    color:#000;
+
+}
+
+
+.next-step{
+  font-family: 'Vazir';
+  font-style: normal;
+  color:rgb(0, 0, 0);
+  font-size: 3vh;
+  line-height: 3vh;
+}
+
+@media(max-width:568px){
+.en-text{
+  font-family: 'Roboto-Medium' ;  
+  font-weight: 100;
+  font-style: normal;  
+  font-size: 7vw;
+  color:#000;
+}
+}
